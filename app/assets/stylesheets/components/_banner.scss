@@ -34,12 +34,15 @@
   position: relative;
 }
 
-.ingredients {
+#ingredients {
   position: absolute;
   top: 45%;
+  text-align: left;
+  padding-left: 10%;
 }
 
-.ingredients a{
+#ingredients a{
   color: white;
+
 }
 

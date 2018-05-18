@@ -11,7 +11,7 @@
 
 
 </div>
-<div class="container ingredients">
+<div class="container" id="ingredients">
   <div class="col-xs-6 col-xs-offset-3">
 <h3> Ingredients  </h3>
 <% @cocktail.doses.each do |dose|%>
@@ -19,7 +19,7 @@
   <i class="far fa-trash-alt"></i> <%end%></p>
 
    <%end%>
-    <%= link_to "Add Ingredient", new_cocktail_dose_path(@cocktail)%>
+    <%= link_to "+ Add Ingredient", new_cocktail_dose_path(@cocktail)%>
   <br>
 
 
