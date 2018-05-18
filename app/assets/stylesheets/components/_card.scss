@@ -4,7 +4,7 @@
   background-position: center;
   color: white;
   position: relative;
-  margin: 10px 0 30px;
+  margin: 10px 0 35px;
   text-align: center;
   padding: 10px;
 }
@@ -17,12 +17,12 @@ color: white;
 .card-inner {
 border: 1px solid gray;
  background-size: cover !important;
-  background-position: center;
+background-position: center;
 height: 200px;
 
 }
 
 .card-show {
   position: absolute;
-  top:100px;
+  top:15%;
 }
